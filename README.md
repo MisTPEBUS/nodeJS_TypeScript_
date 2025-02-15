@@ -116,6 +116,6 @@ JWT_SECRET=hexschool666
 
 - `npm run db:generate` - 根據 schema.prisma 的變更自動產生一個新的 migration，並應用到開發資料庫，同時也會更新 Prisma Client。
 - `npm run db:migrate` - 將已存在的 migration 部署到目標資料庫。
-- `npm run db:push` - - `npm run db:migrate` - 將已存在的 migration 部署到目標資料庫。
+- `npm run db:push` -    將資料部署到目標資料庫。
 - `npm run db:studio` - 打開一個 Web GUI 介面，可以瀏覽和編輯資料庫中的資料。
 - `npm run postinstall` - 生成 Prisma Client。
